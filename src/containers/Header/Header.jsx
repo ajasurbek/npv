@@ -11,7 +11,6 @@ const Header = () => {
     const [search, setSearch] = useState('');
     const [sb,setSb] = useState(false)
 
-  
     useEffect(() => {
       if(search.length !== 0){
         history.push(`/search/${search}`)
