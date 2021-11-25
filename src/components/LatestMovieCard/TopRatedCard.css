@@ -1,0 +1,72 @@
+.rated__card {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  text-decoration: none;
+  width: 250px;
+  position: relative;
+  min-width: 250px;
+  -webkit-box-shadow: 5px 5px 5px 5px rgba(43, 6, 209, 0.3);
+          box-shadow: 5px 5px 5px 5px rgba(43, 6, 209, 0.3);
+}
+
+.rated__card:hover .rated__title {
+  color: #06b31d;
+  margin-bottom: 8px;
+}
+
+.rated__card:hover .rated__date {
+  color: #06b31d;
+}
+
+.rated__card:hover .rated__ranking {
+  color: white;
+  background-color: #06b31d;
+}
+
+.rated__card:hover .rated__img {
+  -webkit-transform: scale(1.4);
+          transform: scale(1.4);
+}
+
+.rated__ranking {
+  position: absolute;
+  top: 20px;
+  z-index: 10;
+  right: 0;
+  padding: 10px;
+  color: white;
+  font-size: 16px;
+  border-radius: 3px;
+  background-color: #f02b09;
+}
+
+.rated__title {
+  text-align: center;
+  color: #f02b09;
+  margin-bottom: 8px;
+}
+
+.rated__date {
+  text-align: center;
+  color: #f02b09;
+  margin-bottom: 5px;
+}
+
+.img__holder {
+  overflow: hidden;
+  -webkit-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+  width: 100%;
+  height: 400px;
+}
+
+.img__holder .rated__img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-bottom: 10px;
+  -webkit-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+}
+/*# sourceMappingURL=TopRatedCard.css.map */

@@ -1,0 +1,73 @@
+.recommend__card {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  text-decoration: none;
+  width: 200px;
+  position: relative;
+  min-width: 200px;
+  -webkit-box-shadow: 5px 5px 5px 5px rgba(43, 6, 209, 0.3);
+          box-shadow: 5px 5px 5px 5px rgba(43, 6, 209, 0.3);
+}
+
+.recommend__card:hover .recommend__title {
+  color: #06b31d;
+  margin-bottom: 8px;
+}
+
+.recommend__card:hover .recommend__date {
+  color: #06b31d;
+}
+
+.recommend__card:hover .recommend__ranking {
+  color: white;
+  background-color: #06b31d;
+}
+
+.recommend__card:hover .recommend__img {
+  -webkit-transform: scale(1.4);
+          transform: scale(1.4);
+}
+
+.recommend__ranking {
+  position: absolute;
+  top: 20px;
+  z-index: 10;
+  right: 0;
+  padding: 9px;
+  color: white;
+  font-size: 16px;
+  border-radius: 3px;
+  background-color: #f02b09;
+}
+
+.recommend__title {
+  margin-top: 10px;
+  text-align: center;
+  color: #f02b09;
+  margin-bottom: 8px;
+}
+
+.recommend__date {
+  text-align: center;
+  color: #f02b09;
+  margin-bottom: 5px;
+}
+
+.img__holder-recommend {
+  overflow: hidden;
+  -webkit-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+  width: 200px;
+  height: 300px;
+}
+
+.img__holder-recommend .recommend__img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-bottom: 10px;
+  -webkit-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+}
+/*# sourceMappingURL=RecommendCard.css.map */

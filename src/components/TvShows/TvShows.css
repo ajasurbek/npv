@@ -1,0 +1,74 @@
+.tv__card {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  text-decoration: none;
+  width: 250px;
+  position: relative;
+  min-width: 250px;
+  -webkit-box-shadow: 5px 5px 5px 5px rgba(43, 6, 209, 0.3);
+          box-shadow: 5px 5px 5px 5px rgba(43, 6, 209, 0.3);
+}
+
+.tv__card:hover .tv__title {
+  color: #06b31d;
+  margin-bottom: 8px;
+}
+
+.tv__card:hover .tv__date {
+  color: #06b31d;
+}
+
+.tv__card:hover .tv__ranking {
+  color: white;
+  background-color: #06b31d;
+}
+
+.tv__card:hover .tv__img {
+  -webkit-transform: scale(1.4);
+          transform: scale(1.4);
+}
+
+.tv__ranking {
+  position: absolute;
+  top: 20px;
+  z-index: 10;
+  right: 0;
+  padding: 10px;
+  color: white;
+  font-size: 16px;
+  border-radius: 3px;
+  background-color: #f02b09;
+}
+
+.tv__title {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 16px;
+  color: #f02b09;
+  margin-bottom: 8px;
+}
+
+.tv__date {
+  text-align: center;
+  color: #f02b09;
+  margin-bottom: 5px;
+}
+
+.img__holder {
+  overflow: hidden;
+  -webkit-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+  width: 100%;
+  height: 400px;
+}
+
+.img__holder .tv__img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-bottom: 10px;
+  -webkit-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+}
+/*# sourceMappingURL=TvShows.css.map */

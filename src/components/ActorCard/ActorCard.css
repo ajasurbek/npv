@@ -1,0 +1,21 @@
+.actor__card {
+  width: 120px;
+  height: 170px;
+  margin: 10px;
+  -webkit-box-shadow: 5px 5px 5px 5px rgba(43, 6, 209, 0.3);
+          box-shadow: 5px 5px 5px 5px rgba(43, 6, 209, 0.3);
+}
+
+.actor__img {
+  padding: 10px;
+  margin: 0 auto;
+  width: 90px;
+  height: 130px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.name {
+  text-align: center;
+}
+/*# sourceMappingURL=ActorCard.css.map */

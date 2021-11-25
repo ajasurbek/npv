@@ -1,0 +1,77 @@
+.tv__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+.info__wrapper {
+    margin-top: 30px;
+    display: flex;
+    margin-bottom: 40px;
+}
+.info__overview-holder {
+    width: 570px;
+}
+.info__overview {
+    margin-bottom: 5px;
+}
+.info__details {
+    margin-right: 220px;
+}
+.info__title {
+    text-align: center;
+}
+.info__link {
+    color: blue;
+}
+.actor__title {
+    text-align: center;
+    font-size: 30px;
+}
+.info__btn {
+    margin: 5px 0;
+    background-color: blue;
+    border: none;
+    outline: none;
+    color: black;
+    padding: 6px 6px;
+    margin-right: 5px;
+}
+.recommendation__title {
+    margin: 35px 0;
+    text-align: center;
+    font-size: 30px;
+}
+.tvactors__list {
+    max-width: 1120px;
+    height: 250px;
+    display: flex;
+    overflow: auto;
+}
+
+@media only screen and (max-width: 675px) {
+    .recommendation__title {
+        margin: 27px 0;
+        font-size: 26px;
+    }
+    .info__details {
+        margin-right: 0px;
+    }
+    .info__title {
+        margin: 27px 0;
+        font-size: 24px;
+    }
+    .info__wrapper {
+        padding: 0 10px;
+    }
+}
+@media only screen and (max-width: 550px) {
+    .info__wrapper {
+        flex-direction: column;
+        padding: 0 20px;
+    }
+    .info__overview-holder {
+        margin-top: 8px;
+        width: 100%;
+    }
+}
