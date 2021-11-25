@@ -20,7 +20,7 @@ import Header from './containers/Header'
 function App() {
   return (
     <>
-    <Router>
+    {/* <Router>
       <Header />
     <Switch>
     <Route exact path='/' component={Home} /> 
@@ -36,7 +36,10 @@ function App() {
     <Route  path="/search/:searchQuery" component={Search} />
     <Route  path='*' component={Error} />
     </Switch>
-    </Router>
+    </Router> */}
+    <h2>
+      dcs
+    </h2>
     </>
     );
   }
